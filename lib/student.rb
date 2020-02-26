@@ -44,8 +44,6 @@ class Student
     student.save
     song
   end
-    
-  end
   
 end
 
