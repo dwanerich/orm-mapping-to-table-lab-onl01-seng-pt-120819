@@ -39,8 +39,8 @@ class Student
  
   end
   
-  def create
-    song = Song.new(name, album)
+  def create(name, grade)
+    song = Student.new(name, grade, id=nil)
     song.save
     song
   end
