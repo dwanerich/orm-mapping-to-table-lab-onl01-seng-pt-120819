@@ -39,7 +39,7 @@ class Student
  
   end
   
-  def create(name, grade, id=nil)
+  def self.create(name, grade, id=nil)
     student = Student.new(name, grade, id=nil)
     student.save
     song
